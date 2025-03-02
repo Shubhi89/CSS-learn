@@ -19,3 +19,33 @@ h1 , h3 {
     background-color: green;
     color: aliceblue;
 }
+
+/* descendent selector */
+p a {
+    color: purple;
+    background-color: yellow;
+}
+
+/* sibiling combinator */
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* child combinator */
+div > input {
+    background-color: darksalmon;
+}
+
+/* attribute selector */
+input[type="text"] {
+    color: red;
+}
+
+input[type="password"] {
+    color: green;
+}
