@@ -1,0 +1,45 @@
+* {
+    width: 200px;
+    height: 200px;
+}
+
+#one {
+    background-color: gray;
+}
+
+@media (max-width :300px) {
+    #one {
+        background-color: green;
+    }
+    
+}
+
+#two {
+    background-color: saddlebrown;
+}
+
+@media (min-width :300px) and (max-width :400px) {
+    #two {
+        background-color: pink;
+    }
+}
+
+#three {
+    background-color: chartreuse;
+}
+
+@media (min-width: 400px) and (max-width:600px) {
+    #three {
+        background-color: red;
+    }
+}
+
+#four {
+    background-color: gold;
+}
+
+@media (min-width:600px) {
+    #four {
+        background-color: blue;
+    }
+}
