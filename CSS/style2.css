@@ -9,3 +9,7 @@ form {
 input {
     background-color: inherit;
 }
+
+button:hover{
+    background-color: red;
+}
