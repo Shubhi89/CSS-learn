@@ -1,15 +1,10 @@
-div{
-    background-color: yellow;
+div {
+    height: 200px;
+    width: 500px;
+    background-color: pink;
+    border: 5px solid black;
 }
 
-form {
-    background-color: red;
-}
-
-input {
-    background-color: inherit;
-}
-
-button:hover{
-    background-color: red;
+h1 {
+    border:2px dashed green;
 }
